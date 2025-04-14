@@ -63,14 +63,14 @@
 ### Linear Regression
 
 
-from sklearn.linear_model import LinearRegression
+from sklearn.linear_model import LinearRegression\\n
 
 #### Initialize and train the model
-linear_regression_model = LinearRegression()
+linear_regression_model = LinearRegression()\\n
 linear_regression_model.fit(X_train, y_train)
 
 #### Make predictions
-y_pred = linear_regression_model.predict(X_test)
+y_pred = linear_regression_model.predict(X_test)\\n
 
 ---
 
