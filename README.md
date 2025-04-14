@@ -65,11 +65,11 @@
 
 from sklearn.linear_model import LinearRegression
 
-Initialize and train the model
+#### Initialize and train the model
 linear_regression_model = LinearRegression()
 linear_regression_model.fit(X_train, y_train)
 
-Make predictions
+#### Make predictions
 y_pred = linear_regression_model.predict(X_test)
 
 ---
